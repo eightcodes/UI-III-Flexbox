@@ -64,3 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.navigation {
+display: flex;
+width:100%;
+background-color: lightgray;
+height: 5%;
+flex-direction: row;
+align-items: center;
+margin: auto;
+}
+
+.services {
+	margin: 1%;
+}
+
+.digital {
+	margin: 1%;
+}
+
+.ux-ui {
+	margin: 1%;
+}
+
+.marketing {
+	margin: 1%;
+}
+
+.web {
+	margin: 1%;
+}
+
+.ios {
+	margin: 1%;
+}
+
+.android {
+	margin: 1%;
+}
+
+.about-facts {
+	margin: 1%;
+}
