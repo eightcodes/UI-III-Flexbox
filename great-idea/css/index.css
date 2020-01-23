@@ -70,53 +70,46 @@ h1, h2, h3, h4, h5 {
 * {
 	box-sizing: border-box;
 }
-
-.navigation {
-display: flex;
-width:100%;
-background-color: lightgray;
-height: 5%;
-flex-direction: space-between;
-margin: 1%;
-text-decoration: none;
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	text-align: center;
 }
 
-.services {
-	margin: 1%;
-	margin: 20px 0;
-    
-}
-
-.digital {
-	margin: 1%;
-}
-
-.ux-ui {
-	margin: 1%;
-}
-
-.marketing {
-	margin: 1%;
-}
-
-.web {
-	margin: 1%;
-}
-
-.ios {
-	margin: 1%;
-}
-
-.android {
-	margin: 1%;
-}
-
-.about-facts {
-	margin: 1%;
-}
  p {
 	 font-family: 16px;
 	 padding: 1%;
 	 line-height: 1.4;
 	 display: inline-block;
+
+ }
+ 
+ .logo {
+	 margin-top: 20px;
+	 margin-left: 80px;
+ }
+ button {
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	background: lightgray;
+	color: black;
+	padding: 2px 20px;
+ }
+
+ .container {
+	 width: 50%;
+	 margin: auto;
+ }
+
+ hr {
+	 height: 1%;
+	 border: 0%;
+	 border-top: 1% solid gold;
+	 padding: 0%;
+	 margin-top: 40%;
+	 margin-bottom: 40%;
  }
