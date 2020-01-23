@@ -79,14 +79,14 @@ header {
 	text-align: center;
 }
 
- p {
+ /* p {
 	 font-family: 16px;
 	 padding: 1%;
 	 line-height: 1.4;
 	 display: inline-block;
 
  }
- 
+ */
  .logo {
 	 margin-top: 20px;
 	 margin-left: 80px;
@@ -113,3 +113,33 @@ header {
 	 margin-top: 40%;
 	 margin-bottom: 40%;
  }
+  nav {
+	  margin: 30px 0px 30px 0px;
+	  vertical-align: top;
+	  display: inline-block;
+  }
+
+  nav a {
+	  margin: 25px;
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: rgb(5, 138, 182);
+	  font-family: 'titillium web', sans-serif;
+  }
+
+  .services {
+	  margin-top: 20%;
+  }
+
+  .intro {
+	  display: flex;
+	  margin-top: 20%;
+	  justify-content: space-evenly;
+	  align-items: center;
+  }
+  .intro h1 {
+	  font-size: 55px;
+	  letter-spacing: 5%;
+  }
