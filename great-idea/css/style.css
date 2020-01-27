@@ -1,0 +1,23 @@
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-flow: column;
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.header-left {
+    width: 49%;
+    text-align: center;
+    align-self: center;
+}
+
+.header-left h1 {
+    font-size: 3.5rem;
+}
